@@ -18,3 +18,6 @@ CREATE TABLE clientes(
     Telefono VARCHAR(9)NOT NULL,
     FOREIGN KEY (ID_País)  REFERENCES pais(ID_País),
 );
+
+
+INSERT INTO País ( ID_País , Nombre_País , NºHabitantes ) VALUES("3", "España" , "47.345.347");
