@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practiac1.html</title>
+
+    <style>
+      ol {
+        counter-reset: list;
+    }
+
+ol > li {
+  list-style: none;
+}
+
+ol > li:before {
+  content: counter(list, lower-alpha) ") ";
+  counter-increment: list;
+}
+</style>
+
+</head>
+<body>
+
+    <h2>Diarios de:</h2>
+
+    <p>1. España:</p>
+
+    <ol style="list-style: none;">
+        <li> <a href="https://www.elmundo.es/">El Mundo</a></li>
+        <li> <a href="https://elpais.com/">El País</a></li>
+        <li>  <a href="https://www.lavanguardia.com/">La Vanguardia</a></li>
+    </ol>
+
+    <br>
+
+    <p>  2. EEU:</p>
+
+    <ul style="list-style-type: none;">
+        <li> a) New York Time</li>
+        <li> b) The Washington Post</li>
+    </ul>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
