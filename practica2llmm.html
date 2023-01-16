@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica2.html</title>
+    <style>
+/*  */
+        table{
+            border-collapse: collapse;     /* Aquí he aplicado estilo a los bordes y los he fusionado  */      
+            text-align: center;
+        }
+
+        .fila1{
+            background-color: yellowgreen; /* Aquí he asignado un color de fondo a las primeras filas Nombre y Edad de la 1º tabla*/
+        }
+
+        .título{
+            background-color: darkcyan;  /*Aquí he aplicado un fondo a los títulos de las tablas que son alumnos evolución y horario de clase */
+            color: whitesmoke; /*Aquí he aplicado un color a los títulos de todas las tablas */
+        }
+
+        .tabla_alumno{
+            margin-left: 500px;
+            margin-top: 30px;
+            width: 500px;
+        }
+        
+        h3{
+            text-align: center;
+        }
+
+        .fila2{
+            background-color: orange;
+        }
+
+        .horario1{
+            background-color: darksalmon;
+        }
+
+        .horario2{
+            background-color: lightgreen;
+        }
+
+        .horario3{
+            background-color: bisque;
+        }
+        .horario4{
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+ 
+    <table border="3" class="tabla_alumno">
+            <h3>1º Ejercicio</h3>
+    <tr>
+        <td colspan="6" class="título">Alumnos</td>
+    </tr>
+   
+    <tr>
+        <td class="fila1">Nombre</td>
+        <td class="fila1">Edad</td>
+    </tr>
+
+    <tr>
+        <td>Alejandro</td>
+        <td>20</td>
+    </tr>
+        
+    <tr>
+        <td>Ruben</td>
+        <td>20</td>
+    </tr>
+
+    <tr>
+        <td>Pelayo</td>
+        <td>19</td>
+    </tr>
+
+    <tr>
+        <td>Jesús Abril</td>
+        <td>21</td>
+    </tr>
+
+    </table>
+    
+     <table border="3" class="tabla_alumno">
+
+        <h3>2º Ejercicio</h3>
+        <tr>
+            <td class="título" colspan="6">Evolución de toda la población</td>
+        </tr>
+       
+
+        <tr>
+            <td class="fila1" rowspan="7">Poblaciones</td>
+        </tr>
+
+        <tr>
+            <td class="fila1">Nombre de los municipios</td>
+            <th class="fila2">2019</th>
+             <th class="fila2">2020</th>
+              <th class="fila2">2021</th>
+        </tr>
+        
+
+        <tr>
+            <td colspan="4" class="título">Evolución de la población</td>
+        </tr>
+       
+
+        <tr>
+            
+            <td>Calamonte</td>
+            <td>6.162</td>
+            <td>6.170</td>
+            <td>6.152</td>
+        </tr>
+
+        <tr>
+            <td>Leganés</td>
+            <td>189.861</td>
+            <td>191.114</td>
+            <td>187.762</td>
+            
+        </tr>
+
+        <tr>
+            <td>Sevilla</td>
+            <td>688.592</td>
+            <td>691.395</td>
+            <td>684.234</td>
+        </tr>
+
+        <tr>
+            <td>Mérida</td>
+            <td>59.335</td>
+            <td>59.548</td>
+            <td>59.424</td>
+        </tr>
+     </table>
+
+    
+     <table class="tabla_alumno" border="3">
+
+        <h3>3º Ejercicio</h3>
+
+        <tr>
+            <td colspan="6" class="título">Horario de clase</td>
+        </tr>
+        <tr class="horario1">
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+
+       <tr>
+        <td class="horario2">8:30-9:25</td>
+        <td class="horario3">ISO</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">ISO</td>
+       </tr>
+
+       <tr>
+        <td class="horario2">9:25-10:20</td>
+        <td class="horario3">ISO</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">ISO</td>
+       </tr>
+
+       <tr>
+        <td class="horario2">10:20-11:15</td>
+        <td class="horario3">FOL</td>
+        <td class="horario3">ISO</td>
+        <td class="horario3">LDM</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">FHW</td>
+       </tr>
+        
+       <tr>
+        <td class="horario2">11:15-11:45</td>
+        <td colspan="5" class="horario4">RECREO</td>
+       </tr>
+
+       <tr>
+        <td class="horario2">11:45-12:40</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">FOL</td>
+        <td class="horario3">LDM</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">FHW</td>
+       </tr>
+
+       <tr>
+        <td class="horario2">12:40-13:35</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">FOL</td>
+        <td class="horario3">ISO</td>
+        <td class="horario3">LDM</td>
+       </tr>
+
+       <tr>
+        <td class="horario2">13:35-14:30</td>
+        <td class="horario3">GBD</td>
+        <td class="horario3">PARE</td>
+        <td class="horario3">FHW</td>
+        <td class="horario3">ISO</td>
+        <td class="horario3">LDM</td>
+       </tr>
+     </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
