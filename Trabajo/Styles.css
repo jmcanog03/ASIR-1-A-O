@@ -18,9 +18,14 @@ div{
   text-align: center; 
   color: white; 
   font-weight: bold;
+  background: url(/Fondo\ amarillo.png);
+  background-repeat: round;
 }
 .poema2{
     text-align: center;
     color: #FFDD27;
     font-weight: bold;
+    background: url(/FireIcon.svg.png) no-repeat bottom left, url(/FireIcon.svg.png) no-repeat bottom right, url(/fondo\ rosa.png);
+
+   
 }
