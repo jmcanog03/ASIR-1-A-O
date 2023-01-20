@@ -1,5 +1,7 @@
 body{
     background-color: #FFEBF0;
+    background: url(/corazon2.1.png) repeat-y right,url(/corazon-1.1.png) repeat-y left; 
+    background-size: 100px;
 }
 h1{
     text-align: center;
