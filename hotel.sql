@@ -16,11 +16,8 @@ CREATE TABLE Habitación(
     nºdehabitaciones ENUM(1-510),
     Capacidad INT,º
     Extras VARCHAR(10)
-   INSERT INTO Habitación (  ) VALUES(
-        your_values
-   );
 );
--- hola 
+
 CREATE TABLE Reserva(
     fecha de la Reserva DATE,
     nombre del hotel  VARCHAR(15)

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica1LLMM.html</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        ol {
+          counter-reset: list;
+      }
+  
+  ol > li {
+    list-style: none;
+    margin-left: 48px;
+  }
+  
+  ol > li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  p{
+      text-decoration: underline;
+      margin-left: 50px;
+
+  }
+
+  ul > li{
+    margin-left: 50px;
+  }
+  
+  body{
+      background-color: orange;
+  }
+  
+
+  
+  </style>
+  
+</head>
+<body>
+    
+    <h2>Diarios de:</h2>
+
+    <p>1. España:</p>
+
+    <ol>
+        <li> <a href="https://www.elmundo.es/">El Mundo</a></li>
+        <img src="img/descarga.png" alt="">
+        <br>
+        <br>
+        <br>
+        <li><a href="https://elpais.com/">El País</a></li>
+        <img src="img/el país.png" alt="">
+        <br>
+        <br>
+        <br>
+        <li><a href="https://www.lavanguardia.com/">La Vanguardia</a></li>
+        <img src="img/la vangu.png" alt="">
+    </ol>
+
+    <br>
+
+    <p>  2. EEUU:</p>
+
+    <ul style="list-style-type: none;">
+        <li> a) <a href="https://www.nytimes.com/international/"> The New York Times</a></li>
+        <img src="img/new york times.png" alt="">
+        <br>
+        <br>
+        <br>
+        <li> b) <a href="https://www.washingtonpost.com/"> The Washington Post</a></li>
+        <img src="img/The Washington Post.jfif" alt="">
+    </ul>
+</body>
+</html>
